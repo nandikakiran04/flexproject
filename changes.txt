@@ -1,0 +1,108 @@
+<source src="https://i.imgur.com/bXQEsIU.mp4" type="video/mp4">
+"https://i.imgur.com/MNusOJB.png"
+ <header class="site-header" >
+    <div class="header-content">
+      <h1 class="main-title">FLEXIBILITY CLOUD SERVICES</h1>
+      <p class="tagline">We Make Tech as Flexible as You Need.</p>
+    </div>
+  </header>
+<div class="overlay" id="about-video" >
+  <section id="about" class="section">
+  <header>
+      <h2>About</h2>
+  </header>
+      <p>Flexibility Cloud Services is a forward-thinking IT services provider delivering scalable cloud solutions and end-to-end technology support. Our mission is to simplify digital transformation for organizations of all sizes through tailored IT strategies and professional services.</p>
+      <p>We specialize in robust cloud infrastructure, system integration, and IT consulting that scales with your business. Additionally, we collaborate with companies to train fresh graduates and junior professionals across various technical domains, ensuring they are job-ready from day one.</p>
+      <p>Flexibility Cloud Services also provides project support and execution, stepping in to assist or fully complete business-critical projects for partner companies. Our strengths include industry-leading expertise, customized workforce training programs, dedication to security and scalability, and a commitment to excellence through proactive support.</p>
+      <p>Our mission is to empower businesses and individuals with flexible, high-impact technology solutions, bridging the gap between potential and performance.</p>
+  </section>
+</div>
+/* Header Styling */
+.site-header {
+  width: 100%;
+  padding: 60px 20px 200px;
+  background: linear-gradient(to left, #8cd1e6, #ffffff);/* semi-transparent for background video */
+  backdrop-filter: blur(14px);
+  position: relative;
+  top: 0;
+  z-index: 10;
+  text-align: center;
+}
+
+.header-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.main-title {
+  font-size: 3.5em;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+}
+
+.tagline {
+  font-size: 1.5em;
+  font-weight: 300;
+  color: #234bce;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+ /* Navbar Styles */
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(to left, #113a61, #ffffff);
+    padding: 5px 5px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    height: 50px;
+  }
+.logo img {
+    width: 110px;
+    height: auto;
+
+  }
+.nav-links a {
+    color: rgb(255, 255, 255);
+    text-decoration:none;
+    font-weight: 500;
+    padding: 10px 12px;
+    transition: background 0.5s ease;
+  }
+  
+  .nav-links a:hover {
+    background: #0c0d0e;
+    border-radius: 5px;
+  }
+/* Dropdown Styles */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #0b0c0f;
+    min-width: 150px;
+    z-index: 1;
+    border-radius: 5px;
+  }
+  
+  .dropdown-content li {
+    display: table-row;
+  }
+  
+  .dropdown-content a {
+    color: white;
+    padding: 10px 15px;
+    display: block;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #4b5f72;
+  }
