@@ -106,3 +106,46 @@
   .dropdown-content a:hover {
     background-color: #4b5f72;
   }
+/* Navbar Styles */
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(to left, #113a61, #ffffff);
+    padding: 5px 5px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    height: 50px;
+  }
+  
+  .logo img {
+    width: 110px;
+    height: auto;
+
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 10;
+    padding: 10;
+  }
+  
+  .nav-links li {
+    position: relative;
+  }
+  
+  .nav-links a {
+    color: rgb(255, 255, 255);
+    text-decoration:none;
+    font-weight: 500;
+    padding: 10px 12px;
+    transition: background 0.5s ease;
+  }
+  
+  .nav-links a:hover {
+    background: #0c0d0e;
+    border-radius: 5px;
+  }
